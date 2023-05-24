@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/duo-labs/webauthn.io/session"
-	"github.com/duo-labs/webauthn/protocol"
-	"github.com/duo-labs/webauthn/webauthn"
+	"github.com/go-webauthn/webauthn/protocol"
+	"github.com/go-webauthn/webauthn/webauthn"
 	"github.com/gorilla/mux"
+	"github.com/leejuyuu/webauthn-example/session"
 )
 
 var webAuthn *webauthn.WebAuthn
